@@ -1,6 +1,9 @@
 using System.Threading.Tasks;
 using chalkboards.Models;
 using chalkboards.Services;
+using CodeWorks.Auth0Provider;
+using keepr.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace chalkboards.Controllers
@@ -20,13 +23,13 @@ namespace chalkboards.Controllers
     [HttpPost]
     [Authorize]
 
-    public Task<ActionResult<Board>> Create([FromBody] Board board)
+    public async Task<ActionResult<Board>> Create([FromBody] Board board)
     {
       try
       {
         Profile userinfo = await HttpContext.GetUserInfoAsync<Profile>();
         board.CreatorId = userinfo.Id;
-        Board newboard = _ks.Create(board);
+        Board newboard = _bs.Create(board);
         newboard.Creator = userinfo;
         return Ok(newboard);
       }

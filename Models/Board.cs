@@ -7,5 +7,8 @@ namespace chalkboards.Models
     public string Title { get; set; }
     public int Quantity { get; set; }
     public int Price { get; set; }
+
+    public string CreatorId { get; set; }
+    public Profile Creator { get; set; }
   }
 }
