@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using Dapper;
-using keepr.Models;
+using chalkboards.Models;
 
-namespace keepr.Repositories
+namespace chalkboards.Repositories
 {
   public class ProfilesRepository
   {

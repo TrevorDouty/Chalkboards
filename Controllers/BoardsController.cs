@@ -2,7 +2,6 @@ using System.Threading.Tasks;
 using chalkboards.Models;
 using chalkboards.Services;
 using CodeWorks.Auth0Provider;
-using keepr.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

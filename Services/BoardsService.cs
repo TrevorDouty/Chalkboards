@@ -5,7 +5,7 @@ namespace chalkboards.Services
 {
   public class BoardsService
   {
-    internal Board Create()
+    internal Board Create(Board board)
     {
       throw new NotImplementedException();
     }

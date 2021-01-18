@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace keepr.Models
+namespace chalkboards.Models
 {
   public class Profile
   {

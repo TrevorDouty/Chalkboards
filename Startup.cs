@@ -19,7 +19,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using MySqlConnector;
 
-namespace keepr
+namespace chalkboards
 {
   public class Startup
   {

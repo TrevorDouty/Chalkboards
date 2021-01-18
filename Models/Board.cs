@@ -1,3 +1,5 @@
+using chalkboards.Models;
+
 namespace chalkboards.Models
 {
   public class Board
