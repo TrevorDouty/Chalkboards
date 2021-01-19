@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\source\\codeworks\\chalkboards\\chalkboards.csproj": {}
+    "C:\\source\\codeworks\\chalkboards\\chalkboards.csproj": {}
   },
   "projects": {
-    "c:\\source\\codeworks\\chalkboards\\chalkboards.csproj": {
+    "C:\\source\\codeworks\\chalkboards\\chalkboards.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\source\\codeworks\\chalkboards\\chalkboards.csproj",
+        "projectUniqueName": "C:\\source\\codeworks\\chalkboards\\chalkboards.csproj",
         "projectName": "chalkboards",
-        "projectPath": "c:\\source\\codeworks\\chalkboards\\chalkboards.csproj",
+        "projectPath": "C:\\source\\codeworks\\chalkboards\\chalkboards.csproj",
         "packagesPath": "C:\\Users\\12089\\.nuget\\packages\\",
-        "outputPath": "c:\\source\\codeworks\\chalkboards\\obj\\",
+        "outputPath": "C:\\source\\codeworks\\chalkboards\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\12089\\AppData\\Roaming\\NuGet\\NuGet.Config"
