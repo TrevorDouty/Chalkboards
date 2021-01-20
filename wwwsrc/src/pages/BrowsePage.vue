@@ -1,6 +1,6 @@
 <template>
   <div class="browse-page">
-    <browse-component v-for="board in boards" :key="board.id" :board-prop="board" />
+    <browse-component v-for='board in boards' :key="board.id" :board-prop="board" />
   </div>
 </template>
 
