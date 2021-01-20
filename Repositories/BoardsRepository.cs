@@ -31,9 +31,9 @@ namespace chalkboards.Repositories
     public int Create(Board Board)
     {
       string sql = @"INSERT INTO boards
-      (name, description, img, creatorId, shares, views, boards)
+      (title, description, img, id, creatorId, quantity, price)
       VALUES
-      (@Name, @Description, @Img, @CreatorId, @Shares, @Views, @Boards);
+      (@Title, @Description, @Img, @Id, @CreatorId, @Quantity, @Price);
       SELECT LAST_INSERT_ID();";
       return _db.ExecuteScalar<int>(sql, Board);
     }
