@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using chalkboards.Models;
 using chalkboards.Services;
@@ -37,7 +38,33 @@ namespace chalkboards.Controllers
         return BadRequest(e.Message);
       }
     }
+    [HttpGet]
 
+    public ActionResult<IEnumerable<Board>> Get()
+    {
+      try
+      {
+        return Ok(_bs.Get());
+      }
+      catch (System.Exception e)
+      {
+        return BadRequest(e.Message);
+      }
+    }
+
+    [HttpGet("{id}")]
+
+    public ActionResult<Board> GetOne(int id)
+    {
+      try
+      {
+        return Ok(_bs.GetOne(id));
+      }
+      catch (System.Exception e)
+      {
+        return BadRequest(e.Message);
+      }
+    }
 
 
   }
