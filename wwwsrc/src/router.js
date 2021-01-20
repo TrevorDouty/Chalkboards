@@ -17,6 +17,16 @@ const routes = [
     component: loadPage('AboutPage')
   },
   {
+    path: '/browse',
+    name: 'Browse',
+    component: loadPage('BrowsePage')
+  },
+  {
+    path: '/custom',
+    name: 'Custom',
+    component: loadPage('CustomPage')
+  },
+  {
     path: '/account',
     name: 'Account',
     component: loadPage('AccountPage'),
