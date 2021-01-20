@@ -8,7 +8,7 @@
 import { BrowseComponent } from "../components/BrowseComponent"
 export default {
   name: 'BrowsePage',
-  setup(){
+  setup() {
     return {}
   },
   components: { BrowseComponent }
