@@ -22,6 +22,6 @@ export default {
   background-image: url("https://i.pinimg.com/originals/56/86/05/568605492394429b7d34f05004d973c9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
 }
 </style>
