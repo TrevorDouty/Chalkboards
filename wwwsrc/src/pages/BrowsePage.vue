@@ -10,20 +10,20 @@
         <h3>
           Events
         </h3>
-<img src="../assets/img/Baby1.png" alt="" class="img-fluid pt-2">
+<img src="../assets/img/Baby1.png" alt="" class="img-fluid pt-2 rounded-circle">
 </div>
       <div class="col-3 text-center">
         <h3>Holidays</h3>
-        <img src="../assets/img/holiday.png" alt="" class="img-fluid pt-5">
+        <img src="../assets/img/holiday.png" alt="" class="img-fluid pt-5 round border border-light">
       </div>
       <div class="col-3 text-center">
         <h3>Inspirational</h3>
-        <img src="../assets/img/inspire.png" alt="" class="img-fluid">
+        <img src="../assets/img/inspire2.png" alt="" class="img-fluid rounder">
       </div>
     </div>
     <div class="row">
       <div class="col text-center">
-        <p>Click On Categories To View More Examples</p>
+        <p>All Boards Are Custom Made</p>
       </div>
     </div>
   </div>
@@ -43,5 +43,13 @@ export default {
 <style lang="scss" scoped>
 .underline{
   text-decoration: underline;
+}
+.round{
+  border-radius: 15%;
+  border-color: white;
+
+}
+.rounder{
+  border-radius: 60%;
 }
 </style>
