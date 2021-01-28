@@ -39,17 +39,15 @@ export default {
 }
 </script>
 
-
 <style lang="scss" scoped>
-.underline{
+.underline {
   text-decoration: underline;
 }
-.round{
+.round {
   border-radius: 15%;
   border-color: white;
-
 }
-.rounder{
+.rounder {
   border-radius: 60%;
 }
 </style>
